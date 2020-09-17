@@ -91,20 +91,20 @@ If a piece of data is missing, try to think of an alternative. For example if a 
   
   $links = array (
     0 => array (
-      'linkName' => 'Codecademy',
-      'linkURL' =>'https://www.codecademy.com/',
-      'linkImage' => '',
-      'linkDescription' => 'Learn to code interactively, for free.' ),
+      'name' => 'Codecademy',
+      'url' =>'https://www.codecademy.com/',
+      'image' => '',
+      'description' => 'Learn to code interactively, for free.' ),
     1 => array ( 
-      'linkName' => '',
-      'linkURL' => 'https://www.w3schools.com/',
-      'linkImage' => 'https://www.w3schools.com/css/w3css.gif',
-      'linkDescription' => 'W3Schools is optimized for learning, testing, and training.' ),
+      'name' => '',
+      'url' => 'https://www.w3schools.com/',
+      'image' => 'https://www.w3schools.com/css/w3css.gif',
+      'description' => 'W3Schools is optimized for learning, testing, and training.' ),
     2 => array (
-      'linkName' => 'Mozilla Developer Network',
-      'linkURL' => 'https://www.codecademy.com/',
-      'linkImage' => 'https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png',
-      'linkDescription' => 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.' )
+      'name' => 'Mozilla Developer Network',
+      'url' => 'https://www.codecademy.com/',
+      'image' => 'https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png',
+      'description' => 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.' )
     );
     
   // **************************************************
