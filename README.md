@@ -103,7 +103,7 @@ If a piece of data is missing, try to think of an alternative. For example if a 
     2 => array (
       'name' => 'Mozilla Developer Network',
       'url' => 'https://www.codecademy.com/',
-      'image' => 'https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png',
+      'image' => 'https://www.logo.wine/a/logo/MDN_Web_Docs/MDN_Web_Docs-Logo.wine.svg',
       'description' => 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.' )
     );
     
