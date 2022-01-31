@@ -111,7 +111,7 @@ If a piece of data is missing, try to think of an alternative. For example if a 
 
   for ($i = 0; $i < count ($links); $i ++)
   {
-    echo '<h1>'.$links[$i]['linkName'].'</h1>';
+    echo '<h1>'.$links[$i]['name'].'</h1>';
   }
 
   echo '<pre>';
