@@ -1,4 +1,4 @@
-# php-for-while
+# A Basic Introduction to PHP and For Loops
 
 A basic example of using PHP ifor and while loops.
 
