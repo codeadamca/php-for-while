@@ -30,7 +30,7 @@
         2 => array (
           'name' => 'Mozilla Developer Network',
           'url' => 'https://www.codecademy.com/',
-          'image' => 'mozzila.png',
+          'image' => 'mozilla.png',
           'description' => 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.' )
         );
         
