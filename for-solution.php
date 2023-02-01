@@ -18,20 +18,20 @@
     // Define a multi dimensional array to store all of the links
     $links = array (
         0 => array (
-            'name' => 'Codecademy',
-            'url' =>'https://www.codecademy.com/',
-            'image' => '',
-            'description' => 'Learn to code interactively, for free.' ),
+          'name' => 'Codecademy',
+          'url' =>'https://www.codecademy.com/',
+          'image' => '',
+          'description' => 'Learn to code interactively, for free.' ),
         1 => array ( 
-            'name' => '',
-            'url' => 'https://www.w3schools.com/',
-            'image' => 'https://www.w3schools.com/css/w3css.gif',
-            'description' => 'W3Schools is optimized for learning, testing, and training.' ),
+          'name' => '',
+          'url' => 'https://www.w3schools.com/',
+          'image' => 'w3schools.png',
+          'description' => 'W3Schools is optimized for learning, testing, and training.' ),
         2 => array (
-            'name' => 'Mozilla Developer Network',
-            'url' => 'https://www.codecademy.com/',
-            'image' => 'https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png',
-            'description' => 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.' )
+          'name' => 'Mozilla Developer Network',
+          'url' => 'https://www.codecademy.com/',
+          'image' => 'mozzila.png',
+          'description' => 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.' )
         );
         
     // **************************************************

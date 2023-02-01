@@ -98,12 +98,12 @@ If a piece of data is missing, try to think of an alternative. For example if a 
     1 => array ( 
       'name' => '',
       'url' => 'https://www.w3schools.com/',
-      'image' => 'https://www.w3schools.com/css/w3css.gif',
+      'image' => 'w3schools.png',
       'description' => 'W3Schools is optimized for learning, testing, and training.' ),
     2 => array (
       'name' => 'Mozilla Developer Network',
       'url' => 'https://www.codecademy.com/',
-      'image' => 'https://www.logo.wine/a/logo/MDN_Web_Docs/MDN_Web_Docs-Logo.wine.svg',
+      'image' => 'mozzila.png',
       'description' => 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.' )
     );
     
