@@ -71,74 +71,77 @@ If a piece of data is missing, try to think of an alternative. For example if a 
 
 1. Open up a new file and name it `for.php`.
 2. Add the following code to the new PHP file:
-
-```php
-<!doctype html>
-<html>
-<head>
-   <title>PHP and For Loops</title> 
-</head>
-<body>
     
-  <h1>PHP and For Loops</h1> 
-
-  <p>Use PHP echo, if statements, and loops to output all three links.</p>
-
-  <?php
-
-  // **************************************************
-  // Do not edit this code
-  
-  $links = array (
-    0 => array (
-      'name' => 'Codecademy',
-      'url' =>'https://www.codecademy.com/',
-      'image' => '',
-      'description' => 'Learn to code interactively, for free.' ),
-    1 => array ( 
-      'name' => '',
-      'url' => 'https://www.w3schools.com/',
-      'image' => 'w3schools.png',
-      'description' => 'W3Schools is optimized for learning, testing, and training.' ),
-    2 => array (
-      'name' => 'Mozilla Developer Network',
-      'url' => 'https://www.codecademy.com/',
-      'image' => 'mozilla.png',
-      'description' => 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.' )
-    );
+    ```php
+    <!doctype html>
+    <html>
+    <head>
+       <title>PHP and For Loops</title> 
+    </head>
+    <body>
+        
+      <h1>PHP and For Loops</h1> 
     
-  // **************************************************
-
-  for ($i = 0; $i < count ($links); $i ++)
-  {
-    echo '<h1>'.$links[$i]['name'].'</h1>';
-  }
-
-  echo '<pre>';
-  print_r ($links);
-  echo '</pre>';
-
-  ?>
+      <p>Use PHP echo, if statements, and loops to output all three links.</p>
     
-</body>
-</html>
-
-```
-
-> Note: Do not edit the code between the stars. 
+      <?php
+    
+      // **************************************************
+      // Do not edit this code
+      
+      $links = array (
+        0 => array (
+          'name' => 'Codecademy',
+          'url' =>'https://www.codecademy.com/',
+          'image' => '',
+          'description' => 'Learn to code interactively, for free.' ),
+        1 => array ( 
+          'name' => '',
+          'url' => 'https://www.w3schools.com/',
+          'image' => 'w3schools.png',
+          'description' => 'W3Schools is optimized for learning, testing, and training.' ),
+        2 => array (
+          'name' => 'Mozilla Developer Network',
+          'url' => 'https://www.codecademy.com/',
+          'image' => 'mozilla.png',
+          'description' => 'The Mozilla Developer Network (MDN) provides information about Open Web technologies.' )
+        );
+        
+      // **************************************************
+    
+      for ($i = 0; $i < count ($links); $i ++)
+      {
+        echo '<h1>'.$links[$i]['name'].'</h1>';
+      }
+    
+      echo '<pre>';
+      print_r ($links);
+      echo '</pre>';
+    
+      ?>
+        
+    </body>
+    </html>
+    
+    ```
+    
+    > Note: Do not edit the code between the stars. 
 
 3. After the stars, add code that will display the three sets of link information using loops. Notice that some of the values are purposely empty. 
 
-> Hint: Add each value from the arrays one at a time. Test your PHP after each new line of PHP. 
+    > Hint: Add each value from the arrays one at a time. Test your PHP after each new line of PHP. 
 
 > [More information on PHP for loops](https://www.php.net/manual/en/control-structures.for.php)
 
-## Tutorial Requirements:
+> Full tutorial URL:  
+> https://codeadam.ca/learning/php-for-while.html
 
-* [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
+***
+
+## Repo Resources
+
+* [Visual Studio Code](https://code.visualstudio.com/)
 * [Filezilla](https://filezilla-project.org/) (or any FTP program)
-
-Full tutorial URL: https://codeadam.ca/learning/php-for-while.html
 
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
