@@ -39,12 +39,44 @@
     // Loop through the array and display the link information
     for ($i = 0; $i < count ($links); $i ++)
     {
-        echo '<h1>'.$links[$i]['linkName'].'</h1>';
+      if ($links[$i]['name'] == "") 
+      {
+        echo '<h2>'.$links[$i]['url'].'</h2>';
+      } 
+      else 
+      {
+        echo '<h2>'.$links[$i]['name'].'</h2>';
+      }
+      
+      if ($links[$i]['description'] != "") 
+      {
+        echo "<p>".$links[$i]['description'].'</p>';
+      } 
+      
+      if ($links[$i]['image'] != "")
+      {
+        echo '<image src="'.$links[$i]['image'].'" width="300">';
+      }
+
+        echo '<br>';
+
+      if ($links[$i]['url'])
+      {
+        if ($links[$i]['name'])
+        {
+          echo '<a href="'.$links[$i]['url'].'">'.$links[$i]['name'].'</a>';
+        }
+      } 
+      else 
+      {
+        echo '<a href="'. $links[$i]['url'].'">'. $links[$i]['url'].'</a>';
+      }
+        echo '<hr>';
     }
 
     // Use the print_r function to view the contents of the array
     echo '<pre>';
-    print_r ($links);
+    //print_r ($links);
     echo '</pre>';
     
     ?>
